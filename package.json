@@ -1,0 +1,33 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "socketIo를 이용한 zoom 클론 코딩",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirk0201/socket.git"
+  },
+  "author": "kirk0201",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirk0201/socket/issues"
+  },
+  "homepage": "https://github.com/kirk0201/socket#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "pug": "^3.0.2",
+    "socket.io": "^4.4.1",
+    "ws": "^8.4.2"
+  }
+}
